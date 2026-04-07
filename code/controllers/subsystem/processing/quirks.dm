@@ -36,7 +36,7 @@ PROCESSING_SUBSYSTEM_DEF(quirks)
 		list("Social Anxiety", "Mute"),
 		list("Mute", "Soft-Spoken"),
 		list("Stormtrooper Aim", "Big Hands"),
-		//list("Bilingual", "Foreigner"), //monkestation edit, commented out
+		list("Common Second Language", "Foreigner"), //monkestation edit 2, re-added but replaced bilingual with csl
 		//MONKESTATION ADDITION START
 		list("Listener", "Uncommon"),
 		list("Outsider", "Uncommon"),
