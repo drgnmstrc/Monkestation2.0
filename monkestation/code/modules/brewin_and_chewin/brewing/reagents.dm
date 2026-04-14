@@ -4,6 +4,7 @@
 	taste_description = "fruity alcohol"
 	color = "#138808d0" // rgb: 19, 136, 8
 	boozepwr = 30
+	liquid_fire_power = 3
 
 /datum/reagent/consumable/ethanol/poison_wine
 	name = "Fungal Wine"
@@ -11,6 +12,7 @@
 	taste_description = "purified alcoholic death"
 	color = "#000000d0"
 	boozepwr = 1
+	liquid_fire_power = 0
 
 /datum/reagent/consumable/ethanol/poison_wine/on_mob_life(mob/living/carbon/drinker, seconds_per_tick, times_fired)
 	. = ..()
@@ -25,3 +27,4 @@
 	taste_description = "sweet and smooth alcohol"
 	color = "#E33232d0" // rgb: 227, 50, 50
 	boozepwr = 15
+	liquid_fire_power = 0
