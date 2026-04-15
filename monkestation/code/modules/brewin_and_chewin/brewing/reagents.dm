@@ -28,3 +28,39 @@
 	color = "#E33232d0" // rgb: 227, 50, 50
 	boozepwr = 15
 	liquid_fire_power = 0
+
+/datum/reagent/consumable/ethanol/dry_vermouth
+	name = "Dry Vermouth"
+	description = "What's the difference between this and sweet Vermouth?"
+	color = "#9E2F2F" // rgb: 158, 47, 47
+	boozepwr = 60
+	taste_description = "very dry alcohol"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	liquid_fire_power = 5
+
+/datum/reagent/consumable/ethanol/sweet_vermouth
+	name = "Sweet Vermouth"
+	description = "What's the difference between this and dry Vermouth?"
+	color = "#B9FFB3" // rgb: 189, 255, 179
+	boozepwr = 60
+	taste_description = "somewhat dry alcohol"
+	liquid_fire_power = 5
+
+/datum/reagent/consumable/ethanol/dry_voltaic_yellow
+	name = "Dry Voltaic Yellow"
+	description = "Electrically charged wine reinforced with herbs, spices, and brandies. Recharges etherials, but also nontoxic."
+	boozepwr = 60
+	color = "#ffce6c"
+	taste_description = "very dry static"
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	liquid_fire_power = 9
+
+/datum/reagent/consumable/ethanol/dry_voltaic_yellow/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume) //can't be on life because of the way blood works.
+	. = ..()
+	if(!(methods & (INGEST|INJECT|PATCH)) || !iscarbon(exposed_mob))
+		return
+
+	var/mob/living/carbon/exposed_carbon = exposed_mob
+	var/obj/item/organ/internal/stomach/ethereal/stomach = exposed_carbon.get_organ_slot(ORGAN_SLOT_STOMACH)
+	if(istype(stomach))
+		stomach.adjust_charge(reac_volume * 3)

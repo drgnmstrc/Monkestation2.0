@@ -356,6 +356,7 @@
 	yield = 40
 	growthstages = 3
 	growing_icon = 'icons/obj/hydroponics/growing_flowers.dmi'
+	possible_mutations = list(/datum/hydroponics/plant_mutation/blueagave)
 	reagents_add = list(/datum/reagent/consumable/nutriment = 0.05, /datum/reagent/consumable/sugar = 0.05)
 
 /obj/item/food/grown/agave

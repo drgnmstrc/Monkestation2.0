@@ -102,7 +102,7 @@
 	brewed_amount = 4
 
 	cargo_valuation = 8000
-	brew_time = 2 MINUTES
+	brew_time = 4 MINUTES
 	helpful_hints = "Further brewing can be done when finished."
 
 /datum/brewing_recipe/white_tiziran
@@ -113,4 +113,14 @@
 	needed_reagents = list(/datum/reagent/consumable/ethanol/kortara = 120)
 
 	cargo_valuation = 8000
-	brew_time = 2 MINUTES
+	brew_time = 4 MINUTES
+
+/datum/brewing_recipe/telepole
+	reagent_to_brew = /datum/reagent/consumable/ethanol/telepole
+	pre_reqs = /datum/reagent/consumable/ethanol/dark_and_stormy
+	display_name = "Telepole"
+	brewed_amount = 4
+	needed_reagents = list(/datum/reagent/consumable/ethanol/wine_voltaic = 50, /datum/reagent/consumable/ethanol/sake = 50)
+
+	cargo_valuation = 8000
+	brew_time = 5 MINUTES

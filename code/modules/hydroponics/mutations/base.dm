@@ -413,3 +413,9 @@
 	created_seed = /obj/item/seeds/watermelon/honeydew
 	required_yield = list(20, INFINITY)
 	required_lifespan = list(60, INFINITY)
+
+/datum/hydroponics/plant_mutation/blueagave
+	mutates_from = list(/obj/item/seeds/agave)
+	created_product = /obj/item/food/grown/blueagave
+	created_seed = /obj/item/seeds/blueagave
+	required_production = list(40, INFINITY)

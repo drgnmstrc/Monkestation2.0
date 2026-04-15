@@ -332,6 +332,7 @@
 	taste_description = "dry alcohol"
 	ph = 3.25
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	liquid_fire_power = 5
 
 /datum/reagent/consumable/ethanol/wine
 	name = "Wine"
@@ -3039,7 +3040,7 @@
 	liquid_fire_power = 2
 
 /datum/reagent/consumable/ethanol/pulque
-	name = "Agave Wine"
+	name = "Pulque"
 	description = "Also known as agave wine or octli, this drink is made from fermented aguamiel, the sap of the agave plant."
 	taste_description = "slightly sweet and acidic"
 	color = "#dce2ded0" // rgb: 220, 226, 222
