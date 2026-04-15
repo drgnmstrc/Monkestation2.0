@@ -46,7 +46,7 @@
 	pre_reqs = /datum/reagent/consumable/ethanol/vermouth
 	display_name = "Sweet Vermouth"
 	needed_items  = list(/obj/item/grown/orangepeel = 3)
-	needed_crops = list(/obj/item/food/grown/cherry = 100)
+	needed_crops = list(/obj/item/food/grown/cherries = 100)
 	brewed_amount = 2
 
 	cargo_valuation = 5000
