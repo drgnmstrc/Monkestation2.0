@@ -12,6 +12,7 @@
 /datum/brewing_recipe/vermouth
 	reagent_to_brew = /datum/reagent/consumable/ethanol/vermouth
 	display_name = "Vermouth"
+	needed_crops = list(/obj/item/food/grown/herbs = 100)
 	needed_reagents = list(/datum/reagent/consumable/ethanol/wine = 100)
 	brewed_amount = 2
 
@@ -34,7 +35,7 @@
 	reagent_to_brew = /datum/reagent/consumable/ethanol/dry_vermouth
 	pre_reqs = /datum/reagent/consumable/ethanol/vermouth
 	display_name = "Dry Vermouth"
-	needed_crops = list(/obj/item/food/grown/herbs = 100, /obj/item/food/grown/ginger = 100, /obj/item/food/grown/harebell = 100)
+	needed_crops = list(/obj/item/food/grown/ginger = 100, /obj/item/food/grown/harebell = 100)
 	brewed_amount = 2
 
 	cargo_valuation = 5000
@@ -44,8 +45,8 @@
 	reagent_to_brew = /datum/reagent/consumable/ethanol/sweet_vermouth
 	pre_reqs = /datum/reagent/consumable/ethanol/vermouth
 	display_name = "Sweet Vermouth"
-	needed_items  = list(/obj/item/grown/orangepeel = 1)
-	needed_crops = list(/obj/item/food/grown/herbs = 100, /obj/item/food/grown/cherry = 100)
+	needed_items  = list(/obj/item/grown/orangepeel = 3)
+	needed_crops = list(/obj/item/food/grown/cherry = 100)
 	brewed_amount = 2
 
 	cargo_valuation = 5000

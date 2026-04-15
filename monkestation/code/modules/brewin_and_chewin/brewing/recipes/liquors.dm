@@ -2,7 +2,7 @@
 	reagent_to_brew = /datum/reagent/consumable/ethanol/melon_liquor
 	display_name = "Melon Liquor"
 	needed_items = list(/obj/item/grown/log = 1)
-	needed_crops = list(/obj/item/food/grown/watermelon = 400, /obj/item/food/grown/poppy = 50)
+	needed_crops = list(/obj/item/food/grown/watermelon = 400, /obj/item/food/grown/herbs = 50)
 	brewed_amount = 3
 
 	cargo_valuation = 2000
@@ -25,10 +25,10 @@
 	pre_reqs = /datum/reagent/consumable/ethanol/triple_sec
 	brewed_amount = 2
 	needed_items = list(/obj/item/grown/log = 1)
-	needed_crops = list(/obj/item/food/grown/cherries = 500, /obj/item/food/grown/sunflower = 50, /obj/item/food/grown/harebell = 50)
+	needed_crops = list(/obj/item/food/grown/cherries = 250, /obj/item/food/grown/apple = 250, /obj/item/food/grown/ginger = 50, /obj/item/food/grown/herbs = 50)
 	needed_reagents = list(/datum/reagent/consumable/ethanol/wine = 100)
 
-	cargo_valuation = 7000
+	cargo_valuation = 8000
 	brew_time = 4 MINUTES
 
 /datum/brewing_recipe/grappa

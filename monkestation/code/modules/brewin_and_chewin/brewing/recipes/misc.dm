@@ -2,33 +2,22 @@
 	reagent_to_brew = /datum/reagent/consumable/ethanol/gin
 	display_name = "Gin"
 	needed_items = list(/obj/item/grown/log = 1)
-	needed_crops = list(/obj/item/food/grown/berries = 100, /obj/item/food/grown/herbs = 100)
+	needed_crops = list(/obj/item/food/grown/wheat = 100, /obj/item/food/grown/berries = 100)
 	needed_reagents = list(/datum/reagent/water = 100)
-	brewed_amount = 2
+	brewed_amount = 3
 
 	cargo_valuation = 3200
 	brew_time = 4 MINUTES
 
-/datum/brewing_recipe/tequila
-	reagent_to_brew = /datum/reagent/consumable/ethanol/tequila
-	display_name = "Tequila"
-	needed_items = list(/obj/item/grown/log = 1)
-	needed_crops = list(/obj/item/food/grown/citrus/lemon = 200, /obj/item/food/grown/citrus/lime = 200, /obj/item/food/grown/pineapple = 50)
-	needed_reagents = list(/datum/reagent/water = 50, /datum/reagent/consumable/salt = 5)
-	brewed_amount = 2
-
-	cargo_valuation = 2250
-	brew_time = 2 MINUTES
-
 /datum/brewing_recipe/patron
 	reagent_to_brew = /datum/reagent/consumable/ethanol/patron
 	display_name = "Patron"
-	needed_crops = list(/obj/item/food/grown/wheat = 100)
-	needed_reagents = list(/datum/reagent/water = 30, /datum/reagent/consumable/mintextract = 5)
-	brewed_amount = 1
+	needed_crops = list(/obj/item/food/grown/herbs = 50)
+	needed_reagents = list(/datum/reagent/consumable/ethanol/tequila = 100) //Reposado tequila like how Patron is depicted in-game is made from aging silver tequila in wooden casks
+	brewed_amount = 2
 
-	cargo_valuation = 2000
-	brew_time = 1.5 MINUTES
+	cargo_valuation = 3000
+	brew_time = 2 MINUTES
 
 /datum/brewing_recipe/ale
 	reagent_to_brew = /datum/reagent/consumable/ethanol/ale
@@ -38,17 +27,17 @@
 	brewed_amount = 12
 
 	cargo_valuation = 2000
-	brew_time = 6 MINUTES
+	brew_time = 3 MINUTES
 
 /datum/brewing_recipe/whiskey
 	reagent_to_brew = /datum/reagent/consumable/ethanol/whiskey
 	display_name = "Whiskey"
-	needed_crops = list(/obj/item/food/grown/wheat = 240)
-	needed_reagents = list(/datum/reagent/water = 120)
-	brewed_amount = 10
+	needed_crops = list(/obj/item/food/grown/corn = 200)
+	needed_reagents = list(/datum/reagent/water = 100)
+	brewed_amount = 3
 
 	cargo_valuation = 2000
-	brew_time = 8 MINUTES
+	brew_time = 4 MINUTES
 
 /datum/brewing_recipe/glucose
 	reagent_to_brew = /datum/reagent/consumable/nutriment/glucose
@@ -122,5 +111,5 @@
 	brewed_amount = 4
 	needed_reagents = list(/datum/reagent/consumable/ethanol/wine_voltaic = 50, /datum/reagent/consumable/ethanol/sake = 50)
 
-	cargo_valuation = 8000
-	brew_time = 5 MINUTES
+	cargo_valuation = 9000
+	brew_time = 4 MINUTES
