@@ -68,7 +68,7 @@
 	display_name = "Dry Voltaic Yellow"
 	brewed_amount = 1
 	needed_items  = list(/obj/item/grown/log = 1)
-	needed_crops = list(/obj/item/food/grown/mushroom/herbs = 100, /obj/item/food/grown/ginger = 100, /obj/item/food/grown/lanternfruit = 100)
+	needed_crops = list(/obj/item/food/grown/herbs = 100, /obj/item/food/grown/ginger = 100, /obj/item/food/grown/lanternfruit = 100)
 	needed_reagents = list(/datum/reagent/consumable/ethanol = 50, /datum/reagent/consumable/ethanol/sake = 50)
 
 	cargo_valuation = 7000
