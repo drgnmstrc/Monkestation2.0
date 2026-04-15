@@ -1,4 +1,4 @@
-// Finally, peas. Base plant.
+// Maintenance moss. Probably originally grew in Moffic fleet ships.
 /obj/item/seeds/maintenancemoss
 	name = "maintenance moss pods"
 	desc = "A pack full of fungal spores that'll fester into maintenance moss. Don't breathe it in!"
@@ -19,8 +19,8 @@
 /obj/item/food/grown/maintenancemoss
 	seed = /obj/item/seeds/maintenancemoss
 	name = "maintenance moss"
-	desc = "The resin of freshly rotting maintenance moss, full of strange space bacteria."
+	desc = "The scooped out and dried mush of freshly rotting maintenance moss, full of strange space bacteria."
 	icon_state = "maintenancemoss"
 	foodtypes = TOXIC | GROSS
-	tastes = list ("rotten cat liver" = 1, "rotten clown cartilage" = 1, "rotten gas mask" = 1, "hair and sweat" = 1, "fingernails and glue" = 1, "a milky zest with notes of stomach acid" = 1)
+	tastes = list ("rotten cat liver" = 1, "rotten clown cartilage" = 1, "rotten gas mask" = 1, "goblin sweat" = 1, "fingernails and glue" = 1, "moth fuzz" = 1, "a milky zest with notes of stomach acid" = 1)
 	distill_reagent = /datum/reagent/drugs/maintenance_milk
