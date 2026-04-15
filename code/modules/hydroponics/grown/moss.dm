@@ -2,7 +2,7 @@
 /obj/item/seeds/maintenancemoss
 	name = "maintenance moss pods"
 	desc = "A pack full of fungal spores that'll fester into maintenance moss. Don't breathe it in!"
-	icon_state = "seed-maintenancemoss"
+	icon_state = "mycelium-maintenancemoss"
 	species = "maintenancemoss"
 	plantname = "Maintenance Moss"
 	product = /obj/item/food/grown/maintenancemoss

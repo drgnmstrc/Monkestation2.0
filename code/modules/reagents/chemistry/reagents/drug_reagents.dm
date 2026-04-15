@@ -817,3 +817,9 @@
 	)
 	new /obj/structure/bouncy_castle(gored.loc, gored)
 	gored.gib(TRUE, TRUE, TRUE) //no brain, no organs, no bodyparts
+
+//distilled from maintenance moss
+/datum/reagent/drug/maintenance_milk
+	name = "Maintenance Milk"
+	description = "The musty remnants of distilled maintenance moss. It hurts your stomach but fortifies the liver. Used to make maintenance mayonnaise."
+	color = "#c3d1c5bd"
