@@ -66,10 +66,9 @@
 	reagent_to_brew = /datum/reagent/consumable/ethanol/dry_voltaic_yellow
 	pre_reqs = /datum/reagent/consumable/ethanol/wine_voltaic
 	display_name = "Dry Voltaic Yellow"
-	brewed_amount = 1
+	brewed_amount = 2
 	needed_items  = list(/obj/item/grown/log = 1)
 	needed_crops = list(/obj/item/food/grown/herbs = 100, /obj/item/food/grown/ginger = 100, /obj/item/food/grown/lanternfruit = 100)
-	needed_reagents = list(/datum/reagent/consumable/ethanol = 50, /datum/reagent/consumable/ethanol/sake = 50)
 
 	cargo_valuation = 7000
 	brew_time = 4 MINUTES
