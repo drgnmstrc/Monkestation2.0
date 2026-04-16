@@ -23,13 +23,13 @@
 	growthstages = 4
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	growing_icon = 'icons/obj/hydroponics/growing_mushrooms.dmi'
-	reagents_add = list(/datum/reagent/medicine/painkiller/morphine = 0.35, /datum/reagent/medicine/c2/multiver = 0.35, /datum/reagent/consumable/nutriment = 0)
+	reagents_add = list(/datum/reagent/medicine/c2/libital = 0.35, /datum/reagent/medicine/c2/multiver = 0.35, /datum/reagent/consumable/nutriment = 0)
 	graft_gene = /datum/plant_gene/trait/plant_type/fungal_metabolism
 
 /obj/item/food/grown/mushroom/reishi
 	seed = /obj/item/seeds/reishi
 	name = "reishi"
-	desc = "<I>Ganoderma lucidum</I>: A special fungus known for its medicinal and stress relieving properties."
+	desc = "<I>Ganoderma lucidum</I>: A special fungus known for its medicinal properties."
 	icon_state = "reishi"
 
 // Fly Amanita
