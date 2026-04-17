@@ -361,6 +361,7 @@
 	icon_grow = "glosscup-grow"
 	icon_dead = "glosscup-dead"
 	icon_harvest = "glosscup-harvest"
+	growthstages = 5
 	plantname = "Glosscup"
 	product = /obj/item/food/grown/mushroom/glosscup
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
@@ -370,7 +371,7 @@
 /obj/item/food/grown/mushroom/glosscup
 	seed = /obj/item/seeds/glosscup
 	name = "glosscup"
-	desc = "A mildly toxic staple crop from Tizira, glosscups are believed to have once been carnivorous plant. Bred to create multiple funnels out of one shoot, the plant eventually 'strangles', unable to swallow with its cups, and tries to pull them back to the stem. The resulting tissue damage, or 'puckers', give it its glossy finish and converts some of its toxins into sugar."
+	desc = "A mildly toxic staple crop from Tizira, glosscups are believed to have once been a carnivorous plant. Bred to create multiple funnels out of one shoot, the plant eventually 'strangles', unable to swallow with its cups, and tries to pull them back to the stem. The resulting tissue damage, or 'puckers', give it its glossy finish and converts some of its toxins into sugar."
 	icon_state = "glosscup"
 	tastes = list("bitter egg" = 1)
 	wine_power = 30
@@ -384,6 +385,7 @@
 	icon_grow = "tictooth-grow"
 	icon_dead = "tictooth-dead"
 	icon_harvest = "tictooth-harvest"
+	growthstages = 5
 	plantname = "Tictooth Funnel"
 	product = /obj/item/grown/tictooth
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
